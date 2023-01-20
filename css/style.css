@@ -1,0 +1,164 @@
+body{
+    color: white;
+    margin: 0 auto;
+
+    /* background-image: url("../asset/OIP.jpg") ; */
+    background-image: url("../asset/Jz6bAs.webp");
+    opacity: 0,5;
+    /* background-repeat: no-repeat; */
+   /*  background-size: cover; */
+    text-align: center;
+  }
+  a{
+    color: white;
+  }
+  a:checked{
+    color: white;
+    text-decoration: underline;
+  }
+  a:active, a:hover{
+    color: aliceblue;
+    
+  }
+  a{
+    color:  rgb(134, 134, 134) !important;
+  }
+
+  i{
+    font-size: 2.2rem;
+    color: green !important;
+    margin-right: 1.5rem;
+  }
+  ul{
+    list-style: none;
+    line-height: 1.5rem;
+    
+  }
+
+  li{
+    margin-top: 2rem;
+  }
+  .card{
+    background-color: rgba(49, 49, 49, 0.801);
+    padding: 3px;
+  }
+
+  .card p {
+    background-color: rgba(22, 22, 22, 0.767);
+    color: white;
+    border: 1.3px solid rgb(0, 124, 0);
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 3px  rgba(61, 61, 61, 0.681);
+  }
+ 
+  .open {
+    animation: slide-in-right 1s ease-in;
+    z-index: 888;
+  }
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+
+  footer{
+    
+    color: rgb(255, 255, 255);
+  }
+  h1{
+    color: rgb(255, 255, 255);
+  }
+  h2{
+    color: rgb(255, 255, 255);
+  }
+  h4{
+    color: rgb(255, 255, 255);
+  }
+  nav{
+    position: sticky;
+    display: block;
+    list-style: none ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+  }
+
+ 
+
+  .nav-item{
+    color: white !important;
+  }
+  #main{
+    
+width: 90%;
+margin-top: 10rem;
+height: 70%;
+margin: 0 auto;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 7px;
+box-shadow: 3px 3px 3px 3px  rgba(226, 225, 225, 0.681);
+  }
+  #ftr{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 2rem;
+    background-color: rgba(2, 2, 2, 0.89);
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px 3px  rgba(226, 225, 225, 0.681);
+    
+    
+  }
+  #ftr a{
+    margin-left: 4rem;
+    
+  }
+
+  .cardCont{
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  #hobby{
+    
+    
+    width: 90% !important;
+    margin: 0 auto;;
+    
+    align-items: center;
+    background-color: rgba(2, 2, 2, 0.89);
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px 3px  rgba(226, 225, 225, 0.681);
+  }
+
+  .card{
+    width: 80%;
+    margin-top: 5rem;
+    
+  }
+
+  .intro{
+    background-color: rgba(2, 2, 2, 0.89);
+    border: 2px solid rgb(75, 77, 80);
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px 3px  rgba(226, 225, 225, 0.681);
+    color: white;
+  }
+
+  .intro img{
+    border-radius: 50%;
+  }
